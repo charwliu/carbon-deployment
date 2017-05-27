@@ -51,7 +51,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.wso2.orbit.org.yaml</groupId>
+            <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
             <optional>true</optional>
         </dependency>

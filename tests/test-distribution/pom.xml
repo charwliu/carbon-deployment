@@ -130,7 +130,7 @@
                         <configuration>
                             <productConfigurationFile>${basedir}/carbon.product</productConfigurationFile>
                             <executable>
-                                ${basedir}/target/org.eclipse.equinox.executable_3.5.0.v20110530-7P7NFUFFLWUl76mart
+                                ${basedir}/target/org.eclipse.equinox.executable_${org.eclipse.equinox.executable.version}
                             </executable>
                             <repositoryURL>file:${basedir}/target/p2-repo</repositoryURL>
                         </configuration>
@@ -212,7 +212,7 @@
                             <target>
                                 <delete dir="target/archive-tmp" />
                                 <delete dir="target/dependency-maven-plugin-markers" />
-                                <delete dir="target/org.eclipse.equinox.executable-3.5.0.v20110530-7P7NFUFFLWUl76mart" />
+                                <delete dir="target/org.eclipse.equinox.executable-${org.eclipse.equinox.executable.version}" />
                                 <delete dir="target/p2-repo" />
                                 <delete file="target/tmp" />
                                 <delete dir="target/wso2carbon-deployment-${carbon.deployment.version}" />
